@@ -1,0 +1,28 @@
+<!DOCTYPE html> <!--indique que la page est en html-->
+  <html> <!--début de la page-->
+      <head> <!--information d'entête-->
+        <link rel="stylesheet" href="style.css">
+          <meta charset="utf-8" /> <!--type de charactère utilisées sur la page-->
+          <title>FireTeam</title> <!--titre de la page(sur l'onglet)-->
+      </head> <!--fin infos entête-->
+
+      <body> <!--corps de la page-->
+        <header>
+            <img src="DATA/final_FT.png" alt="image FireTeam" width="20%" height="20%"/>
+            <p>Fire team</p>
+        </header>
+
+        <nav>
+          <p><a href="Accueil.html">Accueil</a></p>
+          <p><a href="Arts.html">Arts</a></p>
+          <p><a href="Jeux.html">Jeux</a></p>
+          <p><a href="Programmation.html">Programmation</a></p>
+        </nav>
+        <h1>Les membres de La Fire Team</h1>
+
+
+        <footer>
+          <p>Notre Discord</p> 
+        </footer>
+      </body>
+  </html> <!--fin de la page-->

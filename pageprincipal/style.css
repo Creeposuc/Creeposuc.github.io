@@ -1,0 +1,127 @@
+body
+{
+  background-color: white;
+}
+
+/*header*/
+header
+{
+  box-shadow: 0px 10px 30px black;
+  border-radius: 5px;
+  background-color: #FFFFF1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+header p
+{
+  font-size: 3em;
+}
+
+/*navigation*/
+nav a
+{
+  color: #FF4541;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration:none;
+
+}
+nav
+{
+  display: inline;
+  display: flex;
+  justify-content: space-around;
+}
+/*footer*/
+footer
+{
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+/***********************************************************/
+h1
+{
+  text-align: center;
+}
+/*image Foxy*/
+#accueil1
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.profil
+{
+  width: 20em;
+  border: 3px black solid;
+  border-radius: 5px;
+  display: block;
+  margin: 5px;
+}
+.profil:hover
+{
+    box-shadow: 0px 10px 30px black;
+}
+.profil .text_image_gens
+{
+  display: none;
+}
+/*.profil .Imagegens:hover .text_image_gens
+{
+  display: block;
+  text-align: center;
+}*/
+.profil:hover img
+{
+  opacity: 0.2;
+}
+
+
+#accueil2
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.profil2
+{
+  width: 20em;
+  border: 3px black solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+.profil2:hover
+{
+    box-shadow: 0px 10px 30px black;
+}
+.profil2 .text_image_gens
+{
+  display: none;
+}
+/*.profil2 .Imagegens:hover .text_image_gens
+{
+  display: block;
+  text-align: center;
+}*/
+.profil2:hover img
+{
+  opacity: 0.2;
+}
+
+
+
+/*les séparations*/
+.séparation1
+{
+  border: 3px black solid;
+  border-radius: 10px;
+}
