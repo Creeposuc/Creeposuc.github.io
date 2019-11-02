@@ -1,6 +1,7 @@
 body
 {
   background-color: white;
+  color: black;
 }
 
 /*header*/
@@ -10,8 +11,9 @@ header
   border-radius: 5px;
   background-color: #FFFFF1;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  margin: 30px
 }
 
 header p
@@ -22,7 +24,7 @@ header p
 /*navigation*/
 nav a
 {
-  color: #FF4541;
+  color: Black;
   font-weight: bold;
   font-size: 2em;
   text-decoration:none;
@@ -34,6 +36,10 @@ nav
   display: flex;
   justify-content: space-around;
 }
+.pageactuel
+{
+  color: red;
+}
 /*footer*/
 footer
 {
@@ -41,11 +47,21 @@ footer
   font-size: 1.5em;
   margin: 15px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-
 }
-/***********************************************************/
+
+/*body*/
+/*body
+{
+  margin: 10px;
+  box-shadow: 0px 10px 30px black;
+}*/
+
+
+
+
+/**********************Acceuil**********************/
 h1
 {
   text-align: center;
@@ -119,7 +135,49 @@ h1
 
 
 
-/*les séparations*/
+/************************pagepersonelle*****************************/
+.nomgens
+{
+  text-align: center;
+}
+#pagepersonelle
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.bordures img
+{
+  border: 3px black solid;
+  box-shadow: 0px 10px 30px black;
+}
+.bordures
+{
+  width: 20%;
+  height: 20%;
+  margin-left: 1.5%;
+  margin-bottom: 1.5%;
+  margin-right: 1.5%;
+  font-family: fantasy;
+  text-align: center;
+
+}
+.textelateral
+{
+  width: 70%;
+  height: 70%;
+  border-left: 3px black solid;
+  padding-left: 2%;
+}
+/*les listes*/
+.liste1
+{
+  list-style-type: none;
+}
+
+
+/**********************les séparations*********************************/
 .séparation1
 {
   border: 3px black solid;
