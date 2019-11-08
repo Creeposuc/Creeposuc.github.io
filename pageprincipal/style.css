@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'wc_mano_negra_btabold';
+    font-family: 'policetitre';
     src: url('WCManoNegraBoldBta-webfont.eot');
     src: url('WCManoNegraBoldBta-webfont.eot?#iefix') format('embedded-opentype'),
          url('WCManoNegraBoldBta-webfont.woff2') format('woff2'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'scratchregular';
+    font-family: 'policebody';
     src: url('Scratch_-webfont.eot');
     src: url('Scratch_-webfont.eot?#iefix') format('embedded-opentype'),
          url('Scratch_-webfont.woff2') format('woff2'),
@@ -30,7 +30,7 @@ body
 {
   background-color: white;
   color: black;
-  font-family: 'scratchregular' ;
+  font-family: policebody ;
 
 }
 
@@ -95,7 +95,7 @@ footer
 h1
 {
   text-align: center;
-  font-family: "wc_mano_negra_btabold", arial ;
+  font-family: policetitre;
 }
 /*image Foxy*/
 #accueil1
