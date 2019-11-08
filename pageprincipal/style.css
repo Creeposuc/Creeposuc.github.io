@@ -28,8 +28,8 @@
 /**************************/
 body
 {
-  background-color: white;
-  color: black;
+  background-color: #36393F;
+  color: white;
   font-family: policebody ;
 
 }
@@ -39,7 +39,7 @@ header
 {
   box-shadow: 0px 10px 30px black;
   border-radius: 5px;
-  background-color: #FFFFF1;
+  background-color: #050506;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +54,7 @@ header p
 /*navigation*/
 nav a
 {
-  color: Black;
+  color: white;
   font-weight: bold;
   font-size: 2em;
   text-decoration:none;
@@ -111,11 +111,16 @@ h1
   border: 3px black solid;
   border-radius: 5px;
   display: block;
-  margin: 5px;
+  margin: 10px;
 }
-.profil:hover
+.profil:nth-child(1):hover
 {
-    box-shadow: 0px 10px 30px black;
+    box-shadow: 0px  0px 30px cyan;
+    background-color: black;
+}
+.profil:nth-child(2):hover
+{
+    box-shadow: 0px  0px 30px orange;
 }
 .profil .text_image_gens
 {
@@ -144,11 +149,15 @@ h1
   border: 3px black solid;
   border-radius: 5px;
   display: inline-block;
-  margin: 5px;
+  margin: 10px;
 }
-.profil2:hover
+.profil2:nth-child(1):hover
 {
-    box-shadow: 0px 10px 30px black;
+    box-shadow: 0px 0px 30px #091d91;
+}
+.profil2:nth-child(2):hover
+{
+    box-shadow: 0px 0px 30px red;
 }
 .profil2 .text_image_gens
 {
