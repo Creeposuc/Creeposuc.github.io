@@ -62,13 +62,25 @@ nav a
 }
 nav
 {
-  display: inline;
+  display: inline-block;
   display: flex;
   justify-content: space-around;
+  transform: rotate(0deg);
+  transition: transform 250ms ease-in-out;
 }
-nav:hover
+nav a
+{
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 250ms ease-in-out;
+  perspective: 0px;
+}
+nav a:hover
 {
   text-shadow: 0px 10px 30px black;
+  transform: perspective(45px) rotateX(45deg) scale(1.2);
+
+
 }
 .pageactuel
 {
