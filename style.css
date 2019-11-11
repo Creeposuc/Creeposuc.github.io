@@ -37,8 +37,6 @@
 }
 
 
-}
-
 @font-face {
     font-family: 'policebody';
     src: url('Scratch_-webfont.eot');
@@ -58,7 +56,7 @@ body
 {
   background-color: #36393F;
   color: white;
-  font-family: policebody ;
+  font-family: policebody;
 
 }
 
@@ -95,6 +93,7 @@ nav
   justify-content: space-around;
   transform: rotate(0deg);
   transition: transform 250ms ease-in-out;
+  font-family: 'true_crimesregular';
 }
 nav a
 {
@@ -188,29 +187,18 @@ h1:hover
   opacity: 0.2;
 }
 
-
-#accueil2
 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.profil2
-{
-  width: 20em;
-  border: 3px black solid;
-  border-radius: 5px;
-  display: inline-block;
-  margin: 10px;
-  transition: transform 700ms ease-in-out;
-}
-.profil2:nth-child(1):hover
+.profil:nth-child(3):hover
 {
     box-shadow: 0px 0px 30px #091d91;
     background-color: black;
     transform: rotate(360deg);
 }
-.profil2:nth-child(2):hover
+.profil:nth-child(4):hover
 {
     box-shadow: 0px 0px 30px red;
     background-color: black;
@@ -229,6 +217,39 @@ h1:hover
 {
   opacity: 0.2;
 }
+
+/****************la FireTeam c'est quoi?*****************************/
+#késako
+{
+  display: flex;
+  justify-content: center;
+}
+
+#késakoimg
+{
+  opacity: 1;
+  transition: transform 500ms ease-in-out;
+  transform: scale(1);
+}
+#késakoimg:hover
+{
+  transform: scale(0.5);
+}
+#ungroupe
+{
+  transition: transform 500ms ease-in-out;
+  transform: scale(0);
+}
+#késakoimg:hover + #ungroupe
+{
+  transform: scale(1);
+
+}
+
+
+
+
+
 
 
 
