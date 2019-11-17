@@ -156,8 +156,6 @@ h1:hover
 .profil
 {
   margin: 1.5%;
-  width: 20em;
-  background-color: red;
 }
 .Imagegens
 {
@@ -178,7 +176,7 @@ h1:hover
   display: block;
   transform: rotateX(-90deg);
   transition: transform  700ms ease-in-out;
-  transform-origin: center top;
+  transform-origin: center bottom;
   background-color: black;
 }
 /*********/
@@ -193,13 +191,13 @@ h1:hover
 }
 
 /*********/
-.profil .Imagegens:nth-child(1)
+.profil:nth-child(1) .Imagegens
 {border: 3px cyan solid;}
-.profil .Imagegens:nth-child(2)
+.profil:nth-child(2) .Imagegens
 {border: 3px rgb(123, 10, 136) solid;}
-.profil .Imagegens:nth-child(3)
+.profil:nth-child(3) .Imagegens
 {border: 3px blue solid;}
-.profil .Imagegens:nth-child(4)
+.profil:nth-child(4) .Imagegens
 {border: 3px red solid;}
 
 
