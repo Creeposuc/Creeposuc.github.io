@@ -156,6 +156,8 @@ h1:hover
 .profil
 {
   margin: 1.5%;
+  width: 20em;
+  background-color: red;
 }
 .Imagegens
 {
@@ -187,9 +189,18 @@ h1:hover
 }
 .Imagegens:active + .image_renversement
 {
-  transform:  translateY(-20.5em) rotateZ(0deg);
+  transform:  translateY(-20em) rotateZ(0deg);
 }
 
+/*********/
+.profil .Imagegens:nth-child(1)
+{border: 3px cyan solid;}
+.profil .Imagegens:nth-child(2)
+{border: 3px rgb(123, 10, 136) solid;}
+.profil .Imagegens:nth-child(3)
+{border: 3px blue solid;}
+.profil .Imagegens:nth-child(4)
+{border: 3px red solid;}
 
 
 
