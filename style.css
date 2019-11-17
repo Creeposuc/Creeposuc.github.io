@@ -91,14 +91,12 @@ nav
   display: inline-block;
   display: flex;
   justify-content: space-around;
-  transform: rotate(0deg);
   transition: transform 250ms ease-in-out;
   font-family: 'true_crimesregular';
 }
 nav a
 {
   display: inline-block;
-  transform: rotate(0deg);
   transition: transform 250ms ease-in-out;
   perspective: 0px;
 }
@@ -144,79 +142,57 @@ h1:hover
   transform: scale(1.7);
   color: red;
 }
-/*image Foxy*/
+
+
+
+/****************************image **************************************/
 #accueil1
 {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
-
 .profil
 {
+  margin: 1.5%;
+}
+.Imagegens
+{
   width: 20em;
-  border: 3px black solid;
+  border: 3px white solid;
   border-radius: 5px;
   display: block;
-  margin: 10px;
+  transform: rotateX(0deg);
   transition: transform 700ms ease-in-out;
+  transform-origin: top;
+  background-color: black;
 }
-.profil:nth-child(1):hover
+.image_renversement
 {
-    box-shadow: 0px  0px 30px cyan;
-    background-color: black;
-    transform: rotate(360deg);
-}
-.profil:nth-child(2):hover
-{
-    box-shadow: 0px  0px 30px #9500E8;
-    background-color: black;
-    transform: rotate(360deg);
-}
-.profil .text_image_gens
-{
-  display: none;
-}
-/*.profil .Imagegens:hover .text_image_gens
-{
+  width: 20em;
+  border: 3px white solid;
+  border-radius: 5px;
   display: block;
-  text-align: center;
-}*/
-.profil:hover img
+  transform: rotateX(-90deg);
+  transition: transform  700ms ease-in-out;
+  transform-origin: center top;
+  background-color: black;
+}
+/*********/
+.Imagegens:active
 {
-  opacity: 0.2;
+    background-color: black;
+    transform: rotateX(90deg);
+}
+.Imagegens:active + .image_renversement
+{
+  transform:  translateY(-20.5em) rotateZ(0deg);
 }
 
-{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.profil:nth-child(3):hover
-{
-    box-shadow: 0px 0px 30px #091d91;
-    background-color: black;
-    transform: rotate(360deg);
-}
-.profil:nth-child(4):hover
-{
-    box-shadow: 0px 0px 30px red;
-    background-color: black;
-    transform: rotate(360deg);
-}
-.profil2 .text_image_gens
-{
-  display: none;
-}
-/*.profil2 .Imagegens:hover .text_image_gens
-{
-  display: block;
-  text-align: center;
-}*/
-.profil2:hover img
-{
-  opacity: 0.2;
-}
+
+
+
 
 /****************la FireTeam c'est quoi?*****************************/
 #késako
