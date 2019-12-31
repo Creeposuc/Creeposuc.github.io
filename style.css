@@ -163,31 +163,17 @@ h1:hover
   border: 3px white solid;
   border-radius: 5px;
   display: block;
-  transform: rotateX(0deg);
   transition: transform 700ms ease-in-out;
-  transform-origin: top;
+  transform-origin: middle;
   background-color: black;
 }
-.image_renversement
-{
-  width: 20em;
-  border: 3px white solid;
-  border-radius: 5px;
-  display: block;
-  transform: rotateX(-90deg);
-  transition: transform  700ms ease-in-out;
-  transform-origin: top;
-   background-color: black;
-}
+
 /*********/
-.Imagegens:active
+.Imagegens:hover
 {
     background-color: black;
-    transform: rotateX(90deg);
-}
-.Imagegens:active + .image_renversement
-{
-  transform:  translateY(-20em) rotateZ(0deg);
+    transform: scale(0.9);
+    
 }
 
 /*********/
