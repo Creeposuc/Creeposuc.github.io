@@ -187,10 +187,8 @@ h1:hover
 {border: 3px red solid;}
 
 
-
-
 /****************la FireTeam c'est quoi?*****************************/
-#késako
+/* #késako
 {
   display: flex;
   justify-content: center;
@@ -215,14 +213,7 @@ h1:hover
 {
   transform: scale(1);
 
-}
-
-
-
-
-
-
-
+} */
 
 /************************pagepersonelle*****************************/
 .nomgens
@@ -266,7 +257,7 @@ h1:hover
   font-family: 'true_crimesregular';
 }
 /******************************Arts********************************************/
-body section:nth-child(2)
+body #vidéo
 {
   display: flex;
   justify-content: space-around;
@@ -279,7 +270,24 @@ body video
   border-radius: 10px;
   margin: 2%;
   box-shadow: 2px 10px 20px black;
+  width: 40%;
+  height: 40%;
 }
+
+body #dessins
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#dessins img
+{
+  border-radius: 10px;
+  margin: 2%;
+
+
+}
+
 /**********************id des titres des pages des gens*******************************/
 #titrehaspho
 {
