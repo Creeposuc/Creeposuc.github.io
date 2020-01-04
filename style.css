@@ -262,7 +262,6 @@ body #vidéo
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 body video
 {
@@ -279,6 +278,7 @@ body #dessins
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
 }
 #dessins img
 {
